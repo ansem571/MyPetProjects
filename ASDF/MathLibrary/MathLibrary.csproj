@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicFormulas\BinarySolver.cs" />
     <Compile Include="BasicFormulas\DistanceCalculator.cs" />
+    <Compile Include="BasicFormulas\FibonaciCalculator.cs" />
     <Compile Include="Contracts\AStar\AStarNode.cs" />
     <Compile Include="Contracts\Constants\TransformConstants.cs" />
     <Compile Include="SpecialFormulas\AStarAlgorithm.cs" />

@@ -29,6 +29,10 @@ namespace ASDF
 
             chessBoard.ResetBoard();
             Console.ReadKey();
+
+            var binarySolver = new BinarySolver();
+            binarySolver.ResetValue();
+            binarySolver.DiscoverValue();
         }
     }
 }
