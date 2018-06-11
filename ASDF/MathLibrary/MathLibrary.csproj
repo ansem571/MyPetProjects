@@ -41,13 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicFormulas\DistanceCalculator.cs" />
+    <Compile Include="Contracts\AStar\AStarNode.cs" />
     <Compile Include="Contracts\Constants\TransformConstants.cs" />
-    <Compile Include="SpecialFormulas\FramerateUpdateService.cs" />
+    <Compile Include="SpecialFormulas\AStarAlgorithm.cs" />
     <Compile Include="SpecialFormulas\TransformCalculator.cs" />
     <Compile Include="Contracts\Matrices\Transform.cs" />
     <Compile Include="Contracts\Positions\Vector2d.cs" />
     <Compile Include="Contracts\Positions\Vector3d.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
