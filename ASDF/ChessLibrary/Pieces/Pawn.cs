@@ -1,5 +1,4 @@
 ﻿using MathLibrary.Contracts.Positions;
-using System;
 
 namespace ChessLibrary.Pieces
 {
