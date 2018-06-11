@@ -1,0 +1,6 @@
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\bin\Debug\ClientSideProject.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\bin\Debug\ClientSideProject.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\obj\Debug\ClientSideProject.csprojAssemblyReference.cache
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\obj\Debug\ClientSideProject.csproj.CoreCompileInputs.cache
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\obj\Debug\ClientSideProject.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\obj\Debug\ClientSideProject.pdb

@@ -8,3 +8,13 @@ C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\ASDF\obj\Debug\ASDF.csproj.CopyCo
 C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\ASDF\obj\Debug\ASDF.exe
 C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\ASDF\obj\Debug\ASDF.pdb
 C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\ASDF\bin\Debug\ASDF.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\bin\Debug\ASDF.exe.config
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\bin\Debug\ASDF.exe
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\bin\Debug\ASDF.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\bin\Debug\MathLibrary.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\bin\Debug\MathLibrary.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.csprojAssemblyReference.cache
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.csproj.CoreCompileInputs.cache
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.csproj.CopyComplete
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.exe
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.pdb

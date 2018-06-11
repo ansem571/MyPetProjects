@@ -23,23 +23,58 @@ namespace MathLibrary.SpecialFormulas
         public Vector3d GetDirectional(Vector3d origin, Vector3d destination)
         {
             var distance = _distanceCalculator.Distance(origin, destination);
+
             return new Vector3d
             {
-                X = destination.X / distance,
-                Y = destination.Y / distance,
-                Z = destination.Z / distance
+                X = distance == 0 ? 0 : destination.X / distance,
+                Y = distance == 0 ? 0 : destination.Y / distance,
+                Z = distance == 0 ? 0 : destination.Z / distance
             };
         }
 
         public Transform TransformRight(Transform transform)
         {
             var currentRotation = transform.Rotation;
-            currentRotation += TransformConstants.RightTransform;
-            if(currentRotation.Y > TransformConstants.MaxDegree)
+            currentRotation += TransformConstants.TransformRight;
+            if(currentRotation.X > TransformConstants.MaxDegree)
+            {
+                currentRotation.X -= TransformConstants.MaxDegree;
+            }
+            return transform;
+        }
+
+        public Transform TransformUp(Transform transform)
+        {
+            var currentRotation = transform.Rotation;
+            currentRotation += TransformConstants.TransformUp;
+            if (currentRotation.Y > TransformConstants.MaxDegree)
             {
                 currentRotation.Y -= TransformConstants.MaxDegree;
             }
             return transform;
         }
+
+        public Transform TransformLeft(Transform transform)
+        {
+            var currentRotation = transform.Rotation;
+            currentRotation -= TransformConstants.TransformRight;
+            if (currentRotation.X < 0)
+            {
+                currentRotation.X += TransformConstants.MaxDegree;
+            }
+            return transform;
+        }
+
+        public Transform TransformDown(Transform transform)
+        {
+            var currentRotation = transform.Rotation;
+            currentRotation -= TransformConstants.TransformUp;
+            if (currentRotation.Y < 0)
+            {
+                currentRotation.Y += TransformConstants.MaxDegree;
+            }
+            return transform;
+        }
+
     }
 }
