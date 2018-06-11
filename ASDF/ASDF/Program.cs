@@ -1,4 +1,5 @@
-﻿using MathLibrary.BasicFormulas;
+﻿using ChessLibrary.Board;
+using MathLibrary.BasicFormulas;
 using MathLibrary.Contracts.Matrices;
 using MathLibrary.Contracts.Positions;
 using MathLibrary.SpecialFormulas;
@@ -22,10 +23,18 @@ namespace ASDF
 
             //Console.Read();
 
-            update = new FramerateUpdateService();
-            update.Init();
+            var chessBoard = new ChessBoard();
+            chessBoard.DrawBoard();
 
-            Watcher();
+
+
+            //update = new FramerateUpdateService();
+            //update.Init();
+
+            //Watcher();
+            Console.ReadKey();
+
+            chessBoard.ResetBoard();
             Console.ReadKey();
         }
 

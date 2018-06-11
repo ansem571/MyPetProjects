@@ -49,6 +49,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ChessLibrary\ChessLibrary.csproj">
+      <Project>{10beb4f9-b7d6-4e35-bedb-02e959b2a1de}</Project>
+      <Name>ChessLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MathLibrary\MathLibrary.csproj">
       <Project>{133be375-dfd6-45d4-b128-258370939482}</Project>
       <Name>MathLibrary</Name>

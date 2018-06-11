@@ -1,0 +1,9 @@
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\bin\Debug\ChessLibrary.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\bin\Debug\ChessLibrary.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\bin\Debug\MathLibrary.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\bin\Debug\MathLibrary.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\obj\Debug\ChessLibrary.csprojAssemblyReference.cache
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\obj\Debug\ChessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\obj\Debug\ChessLibrary.csproj.CopyComplete
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\obj\Debug\ChessLibrary.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ChessLibrary\obj\Debug\ChessLibrary.pdb

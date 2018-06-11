@@ -18,3 +18,5 @@ C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.csproj.Core
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.csproj.CopyComplete
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.exe
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\obj\Debug\ASDF.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\bin\Debug\ChessLibrary.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ASDF\bin\Debug\ChessLibrary.pdb
