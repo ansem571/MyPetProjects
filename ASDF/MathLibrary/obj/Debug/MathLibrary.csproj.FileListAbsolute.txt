@@ -1,0 +1,6 @@
+C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\MathLibrary\bin\Debug\MathLibrary.dll
+C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\MathLibrary\bin\Debug\MathLibrary.pdb
+C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\MathLibrary\obj\Debug\MathLibrary.csprojAssemblyReference.cache
+C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\MathLibrary\obj\Debug\MathLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\MathLibrary\obj\Debug\MathLibrary.dll
+C:\Users\MRMacDonnell\Desktop\PetProjects\ASDF\MathLibrary\obj\Debug\MathLibrary.pdb
