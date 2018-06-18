@@ -41,10 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicFormulas\BinarySolver.cs" />
+    <Compile Include="BasicFormulas\CollisionDetectionCalculator.cs" />
     <Compile Include="BasicFormulas\DistanceCalculator.cs" />
     <Compile Include="BasicFormulas\FibonaciCalculator.cs" />
     <Compile Include="Contracts\AStar\AStarNode.cs" />
     <Compile Include="Contracts\Constants\TransformConstants.cs" />
+    <Compile Include="Contracts\Shapes\Rectangle.cs" />
     <Compile Include="SpecialFormulas\AStarAlgorithm.cs" />
     <Compile Include="SpecialFormulas\TransformCalculator.cs" />
     <Compile Include="Contracts\Matrices\Transform.cs" />

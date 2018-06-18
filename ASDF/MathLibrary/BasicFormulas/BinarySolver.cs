@@ -24,6 +24,7 @@ namespace MathLibrary.BasicFormulas
             _value = 100;
             var numberOfRecursionsRequired = 0;
             var currentValue = _random.Next(100);
+            Console.WriteLine(currentValue);
             while(currentValue != _value)
             {
                 numberOfRecursionsRequired++;

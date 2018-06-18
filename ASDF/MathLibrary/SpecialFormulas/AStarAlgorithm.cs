@@ -10,6 +10,11 @@ namespace MathLibrary.SpecialFormulas
     {
         private readonly DistanceCalculator _distanceCalculator;
 
+        public AStarAlgorithm(DistanceCalculator distanceCalculator)
+        {
+            _distanceCalculator = distanceCalculator ?? throw new ArgumentNullException(nameof(distanceCalculator));
+        }
+
         public List<string> FindPath(AStarNode start, AStarNode end)
         {
             var openList = new List<AStarNode>();

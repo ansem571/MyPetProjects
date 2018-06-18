@@ -33,6 +33,7 @@ namespace ASDF
             var binarySolver = new BinarySolver();
             binarySolver.ResetValue();
             binarySolver.DiscoverValue();
+            Console.ReadLine();
         }
     }
 }
