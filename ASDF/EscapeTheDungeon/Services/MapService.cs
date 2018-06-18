@@ -30,7 +30,7 @@ namespace EscapeTheDungeon.Services
                 {
                     case BasicTile b:
                         {
-
+                            b.SetVisited(true);
                         }
                         break;
                     default:

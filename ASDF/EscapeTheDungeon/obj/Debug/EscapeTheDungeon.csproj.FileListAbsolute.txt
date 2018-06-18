@@ -7,3 +7,5 @@ C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\EscapeTheDungeon\obj\Debug\Esca
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\EscapeTheDungeon\obj\Debug\EscapeTheDungeon.csproj.CopyComplete
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\EscapeTheDungeon\obj\Debug\EscapeTheDungeon.dll
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\EscapeTheDungeon\obj\Debug\EscapeTheDungeon.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\EscapeTheDungeon\bin\Debug\Map2DLibrary.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\EscapeTheDungeon\bin\Debug\Map2DLibrary.pdb

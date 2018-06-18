@@ -3,3 +3,4 @@ C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\bin\Debug\Cli
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\obj\Debug\ClientSideProject.csproj.CoreCompileInputs.cache
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\obj\Debug\ClientSideProject.dll
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\obj\Debug\ClientSideProject.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\ClientSideProject\obj\Debug\ClientSideProject.csprojAssemblyReference.cache

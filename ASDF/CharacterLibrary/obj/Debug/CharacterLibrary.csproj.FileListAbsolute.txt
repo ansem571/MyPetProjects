@@ -9,3 +9,4 @@ C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\CharacterLibrary\bin\Debug\Char
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\CharacterLibrary\obj\Debug\CharacterLibrary.csproj.CoreCompileInputs.cache
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\CharacterLibrary\obj\Debug\CharacterLibrary.dll
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\CharacterLibrary\obj\Debug\CharacterLibrary.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\CharacterLibrary\obj\Debug\CharacterLibrary.csprojAssemblyReference.cache

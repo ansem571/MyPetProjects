@@ -9,3 +9,4 @@ C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\MathLibrary\bin\Debug\MathLibra
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\MathLibrary\obj\Debug\MathLibrary.csproj.CoreCompileInputs.cache
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\MathLibrary\obj\Debug\MathLibrary.dll
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\MathLibrary\obj\Debug\MathLibrary.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\MathLibrary\obj\Debug\MathLibrary.csprojAssemblyReference.cache

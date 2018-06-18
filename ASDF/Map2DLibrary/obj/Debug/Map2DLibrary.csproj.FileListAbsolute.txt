@@ -9,3 +9,7 @@ C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\Map2DLibrary\bin\Debug\Map2DLib
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\Map2DLibrary\obj\Debug\Map2DLibrary.csproj.CoreCompileInputs.cache
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\Map2DLibrary\obj\Debug\Map2DLibrary.dll
 C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\Map2DLibrary\obj\Debug\Map2DLibrary.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\Map2DLibrary\bin\Debug\MathLibrary.dll
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\Map2DLibrary\bin\Debug\MathLibrary.pdb
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\Map2DLibrary\obj\Debug\Map2DLibrary.csprojAssemblyReference.cache
+C:\Users\MRMacDonnell\Desktop\MyPetProjects\ASDF\Map2DLibrary\obj\Debug\Map2DLibrary.csproj.CopyComplete
