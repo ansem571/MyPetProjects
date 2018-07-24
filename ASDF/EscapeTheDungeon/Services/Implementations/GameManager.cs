@@ -1,11 +1,7 @@
 ﻿using EscapeTheDungeon.Contracts;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace EscapeTheDungeon.Services
+namespace EscapeTheDungeon.Services.Implementations
 {
     public class GameManager
     {
@@ -25,11 +21,16 @@ namespace EscapeTheDungeon.Services
             {
                 _running = true;
             }
+            else
+            {
+                //game is currently running
+            }
         }
         
         public void Quit()
         {
             _running = false;
+            //close out of game
         }
 
         public void Play()
@@ -37,6 +38,8 @@ namespace EscapeTheDungeon.Services
             while (_running)
             {
                 //Display Current Floor Map
+                var currentFloor = _player.CurrentLocation.Z;
+                _mapService.DisplayFloorMap((int)currentFloor);
                 //Display nearby tiles relative to current location
                 //Display valid directional
                 //Process movement

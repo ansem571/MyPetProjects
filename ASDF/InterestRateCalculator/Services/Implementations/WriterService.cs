@@ -8,9 +8,21 @@ namespace InterestRateCalculator.Services.Implementations
     {
         private readonly StreamWriter _writer;
 
+        public WriterService(string fileName)
+        {
+            _writer = string.IsNullOrEmpty(fileName) ? 
+                throw new ArgumentNullException(nameof(fileName)) : 
+                new StreamWriter(fileName);
+        }
+
         public WriterService(StreamWriter writer)
         {
             _writer = writer ?? throw new ArgumentNullException(nameof(writer));
+        }
+
+        public void DisposeWriter()
+        {
+            _writer.Dispose();
         }
 
         public IDisposable BeginScope<TState>(TState state)

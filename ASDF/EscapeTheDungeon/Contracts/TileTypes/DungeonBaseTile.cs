@@ -1,18 +1,15 @@
 ﻿using Map2DLibrary.Contracts;
 using MathLibrary.Contracts.Positions;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace EscapeTheDungeon.Contracts
+namespace EscapeTheDungeon.Contracts.TileTypes
 {
     public class DungeonBaseTile : ITileBase
     {
         private readonly Vector2d _tileLocation;
         private IEnumerable<ITileBase> _nearbyTiles;
         private bool _visited;
+        private bool _isVisible;
 
         public DungeonBaseTile(Vector2d tileLocation)
         {
@@ -28,6 +25,16 @@ namespace EscapeTheDungeon.Contracts
         public void SetVisited(bool value)
         {
             _visited = value;
+        }
+
+        public bool GetVisible()
+        {
+            return _isVisible;
+        }
+
+        public void SetVisible(bool value)
+        {
+            _isVisible = value;
         }
 
         public Vector2d GetTileLocation()

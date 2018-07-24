@@ -22,7 +22,15 @@ namespace InterestRateCalculator.Services.Implementations
             _checkDates = checkDates ?? _checkDates;
             _checksPerMonth = _checkDates.Count;
         }
-        //Example values: 4024.84m, 0.016m, 200, 500, DateTime.Today
+        /// <summary>
+        /// Example values: 4030.02m, 0.016m, 200, 500, DateTime.Today
+        /// </summary>
+        /// <param name="currentValue"></param>
+        /// <param name="rate"></param>
+        /// <param name="months"></param>
+        /// <param name="paymentPerCheck"></param>
+        /// <param name="startDate"></param>
+        /// <returns></returns>
         public decimal CalculateInterestByMonths(decimal currentValue, decimal rate, int months, decimal paymentPerCheck, DateTime startDate)
         {
             var total = currentValue;
@@ -44,11 +52,15 @@ namespace InterestRateCalculator.Services.Implementations
                 }
                 if (currentDate.Day == _accrualDate)
                 {
-                    if (currentDate.Month % 2 == 1)
+                    if (currentDate.Month % 2 == 0)
                     {
-                        rate += 0.001m;
-                        if (rate > 0.0225m)
-                            rate = 0.0225m;
+                        rate += 0.0005m;
+                        if(rate >= 0.02m)
+                        {
+                            rate -= 0.00025m;
+                        }
+                        if (rate > 0.0235m)
+                            rate = 0.0235m;
                     }
                     total += interest;
                     interestForYear += interest;
@@ -75,7 +87,15 @@ namespace InterestRateCalculator.Services.Implementations
             }
             return total;
         }
-
+        /// <summary>
+        /// Example values: 4024.84m, 0.016m, 20, 500, DateTime.Today
+        /// </summary>
+        /// <param name="currentValue"></param>
+        /// <param name="rate"></param>
+        /// <param name="years"></param>
+        /// <param name="paymentPerCheck"></param>
+        /// <param name="startDate"></param>
+        /// <returns></returns>
         public decimal CalculateInterestByYears(decimal currentValue, decimal rate, int years, decimal paymentPerCheck, DateTime startDate)
         {
             var total = currentValue;
